@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+  font-size: 14px;
+}
+
+div {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  height: 55vh;
+  width: 45%;
+  margin: 22.5vh auto;
+}
+
+img {
+  border-radius: 8px 0 0 8px;
+  float: left;
+  height: 55vh;
+  margin-right: 40px;
+  width: 50%;
+}
+
+h3 {
+  font-weight: 100;
+  line-height: 3;
+  letter-spacing: 5px;
+  margin: 0;
+  font-weight: 500;
+  font-family: 'Source Code Pro', monospace;
+  position: relative;
+  top: 10px;
+}
+
+.name {
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  margin: 0 60px 0 0;
+  text-align: left;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 20px 40px 0 0;
+  letter-spacing: 0.5px;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+}
+
+.price {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+}
+
+.discount {
+  margin-left: 20px;
+  position: relative;
+  bottom: 8px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  display: inline-block;
+}
+
+.order {
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  background: hsl(158, 36%, 37%);
+  background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: white;
+  font-size: 18px;
+  padding: 17px 20px 17px 20px;
+  text-decoration: none;
+  width: 200px;
+  margin: auto auto auto 350px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: hsl(228, 12%, 48%);
+  background-image: -webkit-linear-gradient(top, hsl(228, 12%, 48%), hsl(228, 12%, 48%));
+  background-image: -moz-linear-gradient(top, hsl(228, 12%, 48%), hsl(228, 12%, 48%));
+  background-image: -ms-linear-gradient(top, hsl(228, 12%, 48%), hsl(228, 12%, 48%));
+  background-image: -o-linear-gradient(top, hsl(228, 12%, 48%), hsl(228, 12%, 48%));
+  background-image: linear-gradient(to bottom, hsl(228, 12%, 48%), hsl(228, 12%, 48%));
+  text-decoration: none;
+}
